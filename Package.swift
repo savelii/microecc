@@ -1,11 +1,11 @@
-// swift-tools-version:5.5
+// swift-tools-version:5.3
 import PackageDescription
 
 let package = Package(
     name: "microecc",
     platforms: [
         .iOS(.v12),
-        .macOS(.v12)
+        .macOS(.v11)
     ],
     products: [
         // Products define the executables and libraries produced by a package, and make them visible to other packages.
